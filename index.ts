@@ -226,4 +226,14 @@
             port: 3000
         };
 
--> @ symbol used for decorators in ts with react.   
+-> @ symbol used for decorators in TypeScript with React.
+        
+-> Type assertion using angular bracket:
+        let someValue: any = "Hello TypeScript";
+        
+        let strLength: number = (<string>someValue).length;
+        
+        console.log(strLength);
+
+->  In TypeScript Angular brackets(<>) used for Type Assertion &  in Generics.
+        
